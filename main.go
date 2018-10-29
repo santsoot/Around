@@ -33,7 +33,7 @@ const (
 	TYPE        = "post"
 	DISTANCE    = "200km"
 	ES_URL      = "http://35.188.215.203:9200"
-	BUCKET_NAME = "post-images-220522"
+	BUCKET_NAME = "post-images-220907"
 )
 
 func main() {
