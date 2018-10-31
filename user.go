@@ -99,7 +99,6 @@ func signupHandler(w http.ResponseWriter, r *http.Request) {
 	var u User
 	if err := decoder.Decode(&u); err != nil {
 		panic(err)
-		return
 	}
 
 	if u.Username != "" && u.Password != "" && usernamePattern(u.Username) {
